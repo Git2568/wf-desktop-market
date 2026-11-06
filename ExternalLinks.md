@@ -8,15 +8,29 @@
 
 | 优先级 | 查阅重点 | 排序依据 |
 | --- | --- | --- |
-| P0 | 市场核心 API、WebSocket 与 Rust 候选库 | 直接影响市场接入和实时能力 |
+| P0 | 核心接口与开发约束 | 直接影响市场接入、实时能力和当前 UI 开发规范 |
 | P1 | 官方/增强物品、翻译与模拟基础数据 | 支撑名称、字段、版本和模拟校验 |
 | P2 | 社区 API、世界状态与解析工具 | 辅助数据和解析，不能替代市场挂单源 |
 | P3 | 其他语言客户端和实现参考 | 比较封装与流程，当前未选作项目依赖 |
 | P4 | 官网、Wiki、MCP 和探索性资料 | 补充背景，非客户端必需接入 |
 
-## P0 市场核心
+## P0 核心接口与开发约束
 
 本层按项目相关性最高排序；市场文档属于 Warframe.market 生态来源，`wf-market` 是第三方 Rust 客户端库，不等同市场自有接口。
+
+### Hugeicons 官方图标库
+
+- URL：[https://hugeicons.com/](https://hugeicons.com/)
+- 用途：客户端统一 UI 图标来源；禁止以其他图标库、Emoji、Unicode 符号或临时手绘 SVG 替代。
+- 来源/核验状态：官方图标库入口，作为当前 UI 开发约束；具体图标导出和许可范围需在接入时按官方资料核对。
+- 核验日期：2026-11-06（Asia/Shanghai）
+
+### Hugeicons Vue 3 快速入门
+
+- URL：[https://hugeicons.com/docs/integrations/vue/quick-start](https://hugeicons.com/docs/integrations/vue/quick-start)
+- 用途：Vue 3 集成 `@hugeicons/vue`、`@hugeicons/core-free-icons` 与 `HugeiconsIcon` 的官方用法参考。
+- 来源/核验状态：官方 Vue 集成文档已在线核实包名及 `:icon` 用法；实际使用的图标名称和导出仍需逐项核对。
+- 核验日期：2026-11-06（Asia/Shanghai）
 
 ### Warframe.market API 概览
 

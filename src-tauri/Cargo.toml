@@ -1,0 +1,19 @@
+[package]
+name = "wm-market"
+version = "0.1.0"
+description = "A focused Warframe market desktop workspace"
+authors = ["WM Market"]
+edition = "2021"
+
+[lib]
+name = "wm_market_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

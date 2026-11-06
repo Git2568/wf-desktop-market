@@ -14,3 +14,17 @@ Desktop.ini
 *.tmp
 *.swp
 *~
+
+# Frontend dependencies and build output
+node_modules/
+.pnpm-store/
+dist/
+
+# Tauri build output
+src-tauri/target/
+src-tauri/gen/
+
+# Local runtime data
+*.db
+*.sqlite
+*.sqlite3
