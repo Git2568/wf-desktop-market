@@ -1,0 +1,50 @@
+{
+  "verifiedOn": "2026-11-07",
+  "source": "community mirror of game assets; original in-game asset identity retained; not Digital Extremes hosted",
+  "assets": [
+    {
+      "name": "madurai",
+      "file": "madurai.png",
+      "gamePath": "/Lotus/Interface/PolarityTriangle.png",
+      "token": "POLARITY_ATTACK",
+      "url": "https://browse.wf/Lotus/Interface/PolarityTriangle.png",
+      "sha256": "a65c38faa7e1608f18dc3c26d5b9930435c2b15a3fcd7cab7bacd2841b6ce223",
+      "width": 64,
+      "height": 64,
+      "bytes": 835
+    },
+    {
+      "name": "vazarin",
+      "file": "vazarin.png",
+      "gamePath": "/Lotus/Interface/PolarityPoint.png",
+      "token": "POLARITY_DEFENSE",
+      "url": "https://browse.wf/Lotus/Interface/PolarityPoint.png",
+      "sha256": "f6fb80d60d25e1bcad19cdde6a1967401fc39ba5acdd38d3c90f59b8db62f66e",
+      "width": 64,
+      "height": 64,
+      "bytes": 952
+    },
+    {
+      "name": "naramon",
+      "file": "naramon.png",
+      "gamePath": "/Lotus/Interface/PolarityCircle.png",
+      "token": "POLARITY_TACTIC",
+      "url": "https://browse.wf/Lotus/Interface/PolarityCircle.png",
+      "sha256": "304deb1609681e4ce3a918a4dc3774bd87bee5cf57229f3a80f12add13025972",
+      "width": 64,
+      "height": 64,
+      "bytes": 588
+    },
+    {
+      "name": "zenurik",
+      "file": "zenurik.png",
+      "gamePath": "/Lotus/Interface/PolarityMark.png",
+      "token": "POLARITY_POWER",
+      "url": "https://browse.wf/Lotus/Interface/PolarityMark.png",
+      "sha256": "30e526b855bdd70f4c55d7fe3a1fd96bd510e779c739a89d1477bbc912d05028",
+      "width": 64,
+      "height": 64,
+      "bytes": 686
+    }
+  ]
+}

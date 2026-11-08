@@ -39,8 +39,8 @@ onUnmounted(() => { document.removeEventListener('click', handleOutside); docume
 
 <template>
   <aside class="sidebar" :class="{ collapsed: ui.sidebarCollapsed }">
-    <div class="sidebar-top">
-      <div class="brand" aria-label="WM Market"><span>W</span><span>M</span></div>
+    <div class="sidebar-top" data-tauri-drag-region>
+      <div class="brand" aria-label="WM Market" data-tauri-drag-region><span data-tauri-drag-region>W</span><span data-tauri-drag-region>M</span></div>
     </div>
     <button class="collapse-button" type="button" :aria-label="ui.sidebarCollapsed ? '展开侧栏' : '收拢侧栏'" :aria-expanded="!ui.sidebarCollapsed" :title="ui.sidebarCollapsed ? '展开侧栏' : '收拢侧栏'" @click="ui.toggleSidebar()">
       <HugeiconsIcon :icon="ui.sidebarCollapsed ? icons.expand : icons.collapse" :size="15" color="currentColor" :stroke-width="1.6" />

@@ -1,0 +1,1262 @@
+{
+  "schema": "wm.riven-analysis-reference.v1",
+  "rule_version": "44.1.3",
+  "reference_version": "calamity-warframe-riven-info-senpai:322F78AB63B6D2A2BCFC4108538FAE50A2E3398CD2F601E16C89612BABC1C8D3+riven-roll-986f37c7:FA34691A7ECBD6B870A286A311DBACB3FCBDB2FE4FE5B09385DC762EF5545921",
+  "retrieved_at": "2026-11-08T04:16:46+08:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/calamity-inc/warframe-riven-info/senpai/riven_tags.json",
+      "sha256": "322F78AB63B6D2A2BCFC4108538FAE50A2E3398CD2F601E16C89612BABC1C8D3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/calamity-inc/warframe-riven-info/senpai/RivenParser.js",
+      "sha256": "B63BA3F86C468A32D79D1F87D5C847A64BE44635A2322D7F5D5FF582B7A5D0A4"
+    },
+    {
+      "url": "https://github.com/wxhn1225/riven-roll/tree/986f37c7ae0057be4a4c3e8251cb03080507241a/src/data/game.json",
+      "sha256": "FA34691A7ECBD6B870A286A311DBACB3FCBDB2FE4FE5B09385DC762EF5545921"
+    }
+  ],
+  "types": {
+    "LotusArchgunRandomModRare": [
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.0111
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.0089
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.00667
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.0067
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponAmmoMaxMod",
+        "base": 0.0111
+      },
+      {
+        "tag": "WeaponClipMaxMod",
+        "base": 0.0067
+      },
+      {
+        "tag": "WeaponDamageAmountMod",
+        "base": 0.0111
+      },
+      {
+        "tag": "WeaponFireIterationsMod",
+        "base": 0.0067
+      },
+      {
+        "tag": "WeaponPunctureDepthMod",
+        "base": 0.03
+      },
+      {
+        "tag": "WeaponRecoilReductionMod",
+        "base": -0.01
+      },
+      {
+        "tag": "WeaponReloadSpeedMod",
+        "base": 0.0111
+      },
+      {
+        "tag": "WeaponFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponZoomFovMod",
+        "base": 0.006666
+      }
+    ],
+    "LotusModularMeleeRandomModRare": [
+      {
+        "tag": "WeaponMeleeDamageMod",
+        "base": 0.0183
+      },
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.02
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageInfested",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.0061
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "ComboDurationMod",
+        "base": 0.09
+      },
+      {
+        "tag": "SlideAttackCritChanceMod",
+        "base": 0.013334
+      },
+      {
+        "tag": "WeaponMeleeRangeIncMod",
+        "base": 0.02158
+      },
+      {
+        "tag": "WeaponMeleeFinisherDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponMeleeComboEfficiencyMod",
+        "base": 0.00816
+      },
+      {
+        "tag": "WeaponMeleeComboInitialBonusMod",
+        "base": 0.27224
+      },
+      {
+        "tag": "WeaponMeleeComboPointsOnHitMod",
+        "base": -0.01165
+      },
+      {
+        "tag": "WeaponMeleeComboBonusOnHitMod",
+        "base": 0.00653
+      }
+    ],
+    "LotusModularPistolRandomModRare": [
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.01333
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.016666
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.0083
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponAmmoMaxMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponClipMaxMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponDamageAmountMod",
+        "base": 0.0244
+      },
+      {
+        "tag": "WeaponFireIterationsMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponProjectileSpeedMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponPunctureDepthMod",
+        "base": 0.03
+      },
+      {
+        "tag": "WeaponRecoilReductionMod",
+        "base": -0.01
+      },
+      {
+        "tag": "WeaponReloadSpeedMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageInfested",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponZoomFovMod",
+        "base": 0.0089
+      }
+    ],
+    "LotusPistolRandomModRare": [
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.01333
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.016666
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.0083
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponAmmoMaxMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponClipMaxMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponDamageAmountMod",
+        "base": 0.0244
+      },
+      {
+        "tag": "WeaponFireIterationsMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponProjectileSpeedMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponPunctureDepthMod",
+        "base": 0.03
+      },
+      {
+        "tag": "WeaponRecoilReductionMod",
+        "base": -0.01
+      },
+      {
+        "tag": "WeaponReloadSpeedMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageInfested",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponZoomFovMod",
+        "base": 0.0089
+      }
+    ],
+    "LotusRifleRandomModRare": [
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.01333
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.016666
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.00667
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponAmmoMaxMod",
+        "base": 0.00555
+      },
+      {
+        "tag": "WeaponClipMaxMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponDamageAmountMod",
+        "base": 0.018333
+      },
+      {
+        "tag": "WeaponFireIterationsMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponProjectileSpeedMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponPunctureDepthMod",
+        "base": 0.03
+      },
+      {
+        "tag": "WeaponRecoilReductionMod",
+        "base": -0.01
+      },
+      {
+        "tag": "WeaponReloadSpeedMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageInfested",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponZoomFovMod",
+        "base": 0.006666
+      }
+    ],
+    "LotusShotgunRandomModRare": [
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.01333
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.013333
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponAmmoMaxMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponClipMaxMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponDamageAmountMod",
+        "base": 0.0183
+      },
+      {
+        "tag": "WeaponFireIterationsMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponProjectileSpeedMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponPunctureDepthMod",
+        "base": 0.03
+      },
+      {
+        "tag": "WeaponRecoilReductionMod",
+        "base": -0.01
+      },
+      {
+        "tag": "WeaponReloadSpeedMod",
+        "base": 0.005555
+      },
+      {
+        "tag": "WeaponFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFactionDamageInfested",
+        "base": 0.005
+      }
+    ],
+    "PlayerMeleeWeaponRandomModRare": [
+      {
+        "tag": "WeaponMeleeDamageMod",
+        "base": 0.0183
+      },
+      {
+        "tag": "WeaponArmorPiercingDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponImpactDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponSlashDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponCritChanceMod",
+        "base": 0.02
+      },
+      {
+        "tag": "WeaponCritDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponElectricityDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFireDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponFreezeDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponToxinDamageMod",
+        "base": 0.01
+      },
+      {
+        "tag": "WeaponProcTimeMod",
+        "base": 0.01111
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageCorpus",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageGrineer",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponMeleeFactionDamageInfested",
+        "base": 0.005
+      },
+      {
+        "tag": "WeaponFireRateMod",
+        "base": 0.0061
+      },
+      {
+        "tag": "WeaponStunChanceMod",
+        "base": 0.01
+      },
+      {
+        "tag": "ComboDurationMod",
+        "base": 0.09
+      },
+      {
+        "tag": "SlideAttackCritChanceMod",
+        "base": 0.013334
+      },
+      {
+        "tag": "WeaponMeleeRangeIncMod",
+        "base": 0.02158
+      },
+      {
+        "tag": "WeaponMeleeFinisherDamageMod",
+        "base": 0.0133
+      },
+      {
+        "tag": "WeaponMeleeComboEfficiencyMod",
+        "base": 0.00816
+      },
+      {
+        "tag": "WeaponMeleeComboInitialBonusMod",
+        "base": 0.27224
+      },
+      {
+        "tag": "WeaponMeleeComboPointsOnHitMod",
+        "base": -0.01165
+      },
+      {
+        "tag": "WeaponMeleeComboBonusOnHitMod",
+        "base": 0.00653
+      }
+    ]
+  },
+  "attributes": {
+    "punch_through": {
+      "gameRef": "WeaponPunctureDepthMod",
+      "unit": null,
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "slash_damage": {
+      "gameRef": "WeaponSlashDamageMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "impact_damage": {
+      "gameRef": "WeaponImpactDamageMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "toxin_damage": {
+      "gameRef": "WeaponToxinDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "status_duration": {
+      "gameRef": "WeaponProcTimeMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "ammo_maximum": {
+      "gameRef": "WeaponAmmoMaxMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "recoil": {
+      "gameRef": "WeaponRecoilReductionMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": true,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "zoom": {
+      "gameRef": "WeaponZoomFovMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "channeling_damage": {
+      "gameRef": "WeaponMeleeComboInitialBonusMod",
+      "unit": null,
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "channeling_efficiency": {
+      "gameRef": "WeaponMeleeComboEfficiencyMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "critical_chance": {
+      "gameRef": "WeaponCritChanceMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "critical_damage": {
+      "gameRef": "WeaponCritDamageMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "base_damage_/_melee_damage": {
+      "gameRef": "WeaponDamageAmountMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "heat_damage": {
+      "gameRef": "WeaponFireDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "multishot": {
+      "gameRef": "WeaponFireIterationsMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "reload_speed": {
+      "gameRef": "WeaponReloadSpeedMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "range": {
+      "gameRef": "WeaponMeleeRangeIncMod",
+      "unit": null,
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "damage_vs_corpus": {
+      "gameRef": "WeaponFactionDamageCorpus",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "damage_vs_grineer": {
+      "gameRef": "WeaponFactionDamageGrineer",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "puncture_damage": {
+      "gameRef": "WeaponArmorPiercingDamageMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "damage_vs_infested": {
+      "gameRef": "WeaponFactionDamageInfested",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "electric_damage": {
+      "gameRef": "WeaponElectricityDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "finisher_damage": {
+      "gameRef": "WeaponMeleeFinisherDamageMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "fire_rate_/_attack_speed": {
+      "gameRef": "WeaponFireRateMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "projectile_speed": {
+      "gameRef": "WeaponProjectileSpeedMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "magazine_capacity": {
+      "gameRef": "WeaponClipMaxMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "status_chance": {
+      "gameRef": "WeaponStunChanceMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "cold_damage": {
+      "gameRef": "WeaponFreezeDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "combo_duration": {
+      "gameRef": "ComboDurationMod",
+      "unit": "seconds",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "critical_chance_on_slide_attack": {
+      "gameRef": "SlideAttackCritChanceMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "chance_to_gain_extra_combo_count": {
+      "gameRef": "WeaponMeleeComboBonusOnHitMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "chance_to_gain_combo_count": {
+      "gameRef": "WeaponMeleeComboPointsOnHitMod",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": true,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "ammo_efficiency": {
+      "gameRef": "WeaponAmmoEfficiency",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "blast": {
+      "gameRef": "WeaponBlastDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "corrosive": {
+      "gameRef": "WeaponCorrosiveDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "damage_to_orokin": {
+      "gameRef": "WeaponFactionDamageOrokin",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "damage_to_scaldra": {
+      "gameRef": "WeaponFactionDamageScaldra",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "damage_to_techrot": {
+      "gameRef": "WeaponFactionDamageTechrot",
+      "unit": "multiply",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "gas": {
+      "gameRef": "WeaponGasDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "heavy_attack_wind_up_speed": {
+      "gameRef": "WeaponMeleeHeavyAttackChargeMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "magazine_reloaded_s_when_holstered": {
+      "gameRef": "WeaponMagazineReloadHolstered",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "magnetic": {
+      "gameRef": "WeaponMagneticDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "melee_damage_on_heavy_attack": {
+      "gameRef": "WeaponMeleeHeavyAttackDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "parry_angle": {
+      "gameRef": "WeaponMeleeParryAngleMod",
+      "unit": null,
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "radiation": {
+      "gameRef": "WeaponRadiationDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "slam_attack_damage": {
+      "gameRef": "WeaponMeleeSlamDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "melee",
+        "zaw"
+      ]
+    },
+    "status_damage": {
+      "gameRef": "WeaponStatusDamage",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "viral": {
+      "gameRef": "WeaponViralDamageMod",
+      "unit": "percent",
+      "positiveOnly": true,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        null
+      ]
+    },
+    "weak_point_critical_chance": {
+      "gameRef": "WeaponWeakpointCriticalChance",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    },
+    "weak_point_damage": {
+      "gameRef": "WeaponWeakpointDamage",
+      "unit": "percent",
+      "positiveOnly": false,
+      "negativeOnly": false,
+      "positiveIsNegative": false,
+      "exclusiveTo": [
+        "archgun",
+        "kitgun",
+        "pistol",
+        "rifle",
+        "shotgun"
+      ]
+    }
+  },
+  "aliases": {
+    "WeaponDamageAmountMod": "WeaponMeleeDamageMod",
+    "WeaponFactionDamageCorpus": "WeaponMeleeFactionDamageCorpus",
+    "WeaponFactionDamageGrineer": "WeaponMeleeFactionDamageGrineer",
+    "WeaponFactionDamageInfested": "WeaponMeleeFactionDamageInfested"
+  }
+}

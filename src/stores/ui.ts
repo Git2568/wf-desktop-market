@@ -1,8 +1,10 @@
 import { computed, ref, watch } from 'vue'
 import { defineStore } from 'pinia'
+import { transitionTheme } from '../ui/themeTransition'
 
 export type Theme = 'light' | 'dark'
 export type ModuleId = 'market' | 'analysis' | 'reroll' | 'loadout'
+export type MarketPageId = 'purchase' | 'wm-user' | 'my-listings'
 
 export const useUiStore = defineStore('ui', () => {
   let storedTheme: string | null = null
@@ -15,13 +17,15 @@ export const useUiStore = defineStore('ui', () => {
   const theme = ref<Theme>(safeTheme)
   const sidebarCollapsed = ref(storedCollapsed === 'true')
   const selectedModule = ref<ModuleId>('market')
+  const marketPageId = ref<MarketPageId>('purchase')
   const isSettingsOpen = ref(false)
   const isAboutOpen = ref(false)
 
   const isDark = computed(() => theme.value === 'dark')
 
   function setTheme(next: Theme) {
-    theme.value = next
+    if (theme.value === next) return
+    void transitionTheme(() => { theme.value = next })
   }
 
   function toggleTheme() {
@@ -38,5 +42,5 @@ export const useUiStore = defineStore('ui', () => {
 
   watch(sidebarCollapsed, (value) => { try { localStorage.setItem('wm-sidebar-collapsed', String(value)) } catch { /* preferences remain in memory */ } }, { immediate: true })
 
-  return { theme, isDark, sidebarCollapsed, selectedModule, isSettingsOpen, isAboutOpen, setTheme, toggleTheme, toggleSidebar }
+  return { theme, isDark, sidebarCollapsed, selectedModule, marketPageId, isSettingsOpen, isAboutOpen, setTheme, toggleTheme, toggleSidebar }
 })

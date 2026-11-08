@@ -1,0 +1,904 @@
+[
+  {
+    "name": "single",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 0.9
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 2,
+          "neg": 0
+        },
+        {
+          "pos": 2,
+          "neg": 1
+        },
+        {
+          "pos": 3,
+          "neg": 0
+        },
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1.08
+        },
+        {
+          "tag": "B",
+          "w": 1.02
+        },
+        {
+          "tag": "C",
+          "w": 0.97
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "kuva"
+  },
+  {
+    "name": "single_cycles",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 1.07
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 2,
+          "neg": 0
+        },
+        {
+          "pos": 2,
+          "neg": 1
+        },
+        {
+          "pos": 3,
+          "neg": 0
+        },
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1.08
+        },
+        {
+          "tag": "B",
+          "w": 1.02
+        },
+        {
+          "tag": "C",
+          "w": 0.97
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "cycles"
+  },
+  {
+    "name": "or_overlap_high",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "A",
+            "B"
+          ],
+          "min_w": 0.95
+        },
+        {
+          "tags": [
+            "A"
+          ],
+          "min_w": 1.03
+        },
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 1.02
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "E",
+        "F"
+      ],
+      "sets": [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "at_least": {
+        "k": 2,
+        "w": 1.07
+      }
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1.08
+        },
+        {
+          "tag": "B",
+          "w": 1.02
+        },
+        {
+          "tag": "C",
+          "w": 0.97
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "kuva"
+  },
+  {
+    "name": "per_layout",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "A",
+            "C"
+          ],
+          "min_w": 0.9,
+          "min_w_by": {
+            "A": {
+              "20": 1.2,
+              "21": 1.08,
+              "30": 1.04,
+              "31": 1.09
+            },
+            "C": {
+              "20": 1.05,
+              "21": 1.02,
+              "30": 1.01,
+              "31": 1.03
+            }
+          }
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 2,
+          "neg": 0
+        },
+        {
+          "pos": 2,
+          "neg": 1
+        },
+        {
+          "pos": 3,
+          "neg": 0
+        },
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "at_least": {
+        "k": 1,
+        "w": 1.06
+      }
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1.08
+        },
+        {
+          "tag": "B",
+          "w": 1.02
+        },
+        {
+          "tag": "C",
+          "w": 0.97
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "cycles"
+  },
+  {
+    "name": "splice_positive",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "S"
+          ],
+          "min_w": 1.05
+        },
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 1.02
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1.08
+        },
+        {
+          "tag": "B",
+          "w": 1.02
+        },
+        {
+          "tag": "C",
+          "w": 0.97
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "kuva"
+  },
+  {
+    "name": "splice_negative",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "S"
+          ],
+          "min_w": 1.05
+        },
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 0.9
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 0.92
+        },
+        {
+          "tag": "C",
+          "w": 1.02
+        },
+        {
+          "tag": "E",
+          "w": 1.01
+        }
+      ],
+      "neg": {
+        "tag": "B",
+        "w": 1.09
+      },
+      "spliced": null
+    },
+    "objective": "cycles"
+  },
+  {
+    "name": "drop_existing",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 1.06
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 0
+        }
+      ],
+      "allowed_neg": []
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1
+        },
+        {
+          "tag": "C",
+          "w": 1
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1
+      },
+      "spliced": {
+        "tag": "S",
+        "w": 1.01
+      }
+    },
+    "objective": "kuva"
+  },
+  {
+    "name": "keep_spliced",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "kept_pos": [],
+      "kept_neg": [],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "S"
+          ],
+          "min_w": 1.05
+        },
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 0.9
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "A",
+          "w": 1
+        },
+        {
+          "tag": "C",
+          "w": 1
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1
+      },
+      "spliced": {
+        "tag": "S",
+        "w": 1.08
+      }
+    },
+    "objective": "cycles"
+  },
+  {
+    "name": "kept_trait",
+    "pool": {
+      "class": "Rifle",
+      "pos": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "H"
+      ],
+      "neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "H"
+      ],
+      "kept_pos": [
+        "H"
+      ],
+      "kept_neg": [
+        "H"
+      ],
+      "spliced": [
+        "S",
+        "T"
+      ],
+      "splices": [
+        {
+          "result": "S",
+          "a": "A",
+          "b": "B"
+        },
+        {
+          "result": "T",
+          "a": "B",
+          "b": "C"
+        }
+      ]
+    },
+    "target": {
+      "groups": [
+        {
+          "tags": [
+            "H"
+          ],
+          "min_w": 0.9
+        },
+        {
+          "tags": [
+            "F"
+          ],
+          "min_w": 1.02
+        }
+      ],
+      "layouts": [
+        {
+          "pos": 3,
+          "neg": 1
+        }
+      ],
+      "allowed_neg": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "card": {
+      "layout": {
+        "pos": 3,
+        "neg": 1
+      },
+      "pos": [
+        {
+          "tag": "H",
+          "w": 1.02
+        },
+        {
+          "tag": "A",
+          "w": 1
+        },
+        {
+          "tag": "C",
+          "w": 1
+        }
+      ],
+      "neg": {
+        "tag": "D",
+        "w": 1.06
+      },
+      "spliced": null
+    },
+    "objective": "kuva"
+  }
+]

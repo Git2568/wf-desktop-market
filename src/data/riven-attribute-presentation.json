@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "key": "core",
+      "label": "核心",
+      "attributes": [
+        "critical_chance",
+        "critical_damage",
+        "fire_rate_/_attack_speed",
+        "status_duration",
+        "status_chance",
+        "base_damage_/_melee_damage",
+        "multishot"
+      ]
+    },
+    {
+      "key": "element",
+      "label": "元素",
+      "attributes": ["electric_damage", "heat_damage", "cold_damage", "toxin_damage"]
+    },
+    {
+      "key": "physical",
+      "label": "物理",
+      "attributes": ["puncture_damage", "impact_damage", "slash_damage"]
+    },
+    {
+      "key": "faction",
+      "label": "派系",
+      "attributes": ["damage_vs_corpus", "damage_vs_grineer", "damage_vs_infested"]
+    },
+    {
+      "key": "other",
+      "label": "其他",
+      "attributes": [
+        "ammo_maximum",
+        "magazine_capacity",
+        "projectile_speed",
+        "punch_through",
+        "recoil",
+        "reload_speed",
+        "zoom",
+        "chance_to_gain_combo_count",
+        "chance_to_gain_extra_combo_count",
+        "channeling_damage",
+        "channeling_efficiency",
+        "combo_duration",
+        "critical_chance_on_slide_attack",
+        "finisher_damage",
+        "range"
+      ]
+    },
+    {
+      "key": "spliced",
+      "label": "熔接",
+      "attributes": [
+        "weak_point_damage",
+        "weak_point_critical_chance",
+        "ammo_efficiency",
+        "magazine_reloaded_s_when_holstered",
+        "status_damage",
+        "gas",
+        "corrosive",
+        "viral",
+        "radiation",
+        "blast",
+        "magnetic",
+        "damage_to_orokin",
+        "damage_to_techrot",
+        "damage_to_scaldra",
+        "heavy_attack_wind_up_speed",
+        "melee_damage_on_heavy_attack",
+        "parry_angle",
+        "slam_attack_damage"
+      ]
+    }
+  ]
+}
